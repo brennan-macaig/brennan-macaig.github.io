@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    
+
+    <meta name="author" content="Brennan Macaig">
+    <meta name="description" content="Hey Folks!
+Happy to announce that Endeavour and JPL are now both available on my GitHub publicly!
+Endeavour and JPL are tools that I am happy to contribute to the open source community, and I&rsquo;ll take some space here in my blog to explain what they do, why I made them, and how they work.
+Endeavour    Endeavour (the last NASA-made thing to bring humans to space) is a tool which effectively mimics cURL, writing files to the raw repository format in Nexus.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Endeavour and JPL released to the public"/>
+<meta name="twitter:description" content="Hey Folks!
+Happy to announce that Endeavour and JPL are now both available on my GitHub publicly!
+Endeavour and JPL are tools that I am happy to contribute to the open source community, and I&rsquo;ll take some space here in my blog to explain what they do, why I made them, and how they work.
+Endeavour    Endeavour (the last NASA-made thing to bring humans to space) is a tool which effectively mimics cURL, writing files to the raw repository format in Nexus."/>
+
+    <meta property="og:title" content="Endeavour and JPL released to the public" />
+<meta property="og:description" content="Hey Folks!
+Happy to announce that Endeavour and JPL are now both available on my GitHub publicly!
+Endeavour and JPL are tools that I am happy to contribute to the open source community, and I&rsquo;ll take some space here in my blog to explain what they do, why I made them, and how they work.
+Endeavour    Endeavour (the last NASA-made thing to bring humans to space) is a tool which effectively mimics cURL, writing files to the raw repository format in Nexus." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.brennanmacaig.com/posts/endeavour-jpl-released/" />
+<meta property="article:published_time" content="2021-02-19T16:16:24-05:00" />
+<meta property="article:modified_time" content="2021-02-19T16:16:24-05:00" />
+
+
+    <title>
+  Endeavour and JPL released to the public · Brennan Macaig
+</title>
+
+    
+      <link rel="canonical" href="https://www.brennanmacaig.com/posts/endeavour-jpl-released/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.ec198d25949ddd79a670b1ead43ca88e0bc2c1343266d0df0a9eeb7f3f207777.css" integrity="sha256-7BmNJZSd3XmmcLHq1DyojgvCwTQyZtDfCp7rfz8gd3c=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.89c82b6022b96f77aeb521b240daec4f87ea029d84d1c78b8acd0735b91b3c92.css" integrity="sha256-icgrYCK5b3eutSGyQNrsT4fqAp2E0ceLis0HNbkbPJI=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.80.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-dark"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Brennan Macaig
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact Me</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/resume.pdf">Resume (PDF)</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://www.brennanmacaig.com/posts/endeavour-jpl-released/">
+              Endeavour and JPL released to the public
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-02-19T16:16:24-05:00'>
+                February 19, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              3-minute read
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Hey Folks!</p>
+<p>Happy to announce that Endeavour and JPL are now both available on my GitHub publicly!</p>
+<p>Endeavour and JPL are tools that I am happy to contribute to the open source community, and I&rsquo;ll
+take some space here in my blog to explain what they do, why I made them, and how they work.</p>
+<h3 id="endeavour">
+  Endeavour
+  <a class="heading-link" href="#endeavour">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Endeavour <em>(the last NASA-made thing to bring humans to space)</em> is a tool which effectively mimics cURL,
+writing files to the raw repository format in Nexus. Initially, endeavour was created to replace a tool
+written in bash.</p>
+<p>At present, endeavour only supports the raw repository format, although I have plans of extending it to
+support other repository formats.</p>
+<p>Endeavour was designed with a few, very simple goals in mind:</p>
+<ul>
+<li>Be easy to use in a CI/CD pipeline (GitLab&rsquo;s CI/CD was what was designed for, which is very similar to Travis-CI)</li>
+<li>Be secure, handling credentials well and not leaking them to a process table or other location</li>
+<li>Easy to use, with minimal arguments to do the right thing</li>
+<li>Execute fast</li>
+<li>No external dependencies other than Nexus being online</li>
+</ul>
+<p>With these goals in mind, I&rsquo;m fairly sure endeavour meets them.</p>
+<p>Endeavour can upload files and directories, as well as can upload as many files from as many locations in a single command.
+This is accomplished entirely with Go&rsquo;s standard library, without any external dependencies in the supply chain to build.</p>
+<p>Although, endeavour is not complete - it would certainly appreciate some work! If you&rsquo;d like to contribute to endeavour,
+feel free!</p>
+<p><strong>Endeavour can be found <a href="https://github.com/brennan-macaig/endeavour/">on my GitHub</a></strong></p>
+<h3 id="jpl">
+  JPL
+  <a class="heading-link" href="#jpl">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>JPL <em>(the Jet Propulsion Lab)</em> is a tool I created to build software &ldquo;with rocket speed&rdquo;. JPL is an alternative
+to something like Make/Gradle (most similar though to Make). It runs a set of commands in a YAML file line by line, and
+just captures their output. It doesn&rsquo;t make crappy assumptions about commands, instead basing actions on their exit codes.</p>
+<p>You may be saying &ldquo;jeez, that sounds a lot like bash&rdquo;. It is! Except JPL supports templating, and isn&rsquo;t impossible to read.</p>
+<p>JPL files are designed to look very similar to those for GitLab CI/CD / Travis-CI so that people familiar with those tools
+can basically use JPL out-of-the-box in a basic manner, and can learn more about templating to use it in a more complex
+way.</p>
+<p>JPL was created because</p>
+<ol>
+<li>Gradle requires Java (?!) which sucks</li>
+<li>In order to understand Make you need to sacrifice your first-born child and sign a contract with the devil in blood</li>
+<li>Bash sucks to maintain</li>
+</ol>
+<p>JPL can always use more features (modules) to run, as well as needs the following improvements:</p>
+<ol>
+<li>The environment passed to commands is probably too wide. I&rsquo;d like to model what is passed off of <code>sudo</code>.</li>
+<li>JPL should support arbitrary &ldquo;steps&rdquo; as opposed to only <code>build</code> and <code>test</code>. Invoking <code>jpl run</code> should run the
+stages in either a user-defined order, or only run <code>build</code> if no order is found and there is a build stage. Otherwise
+invoking <code>jpl run &lt;stagename&gt;</code> should simply invoke only that stage.</li>
+<li>I&rsquo;d like JPL to be able to easily integrate with HashiCorp Vault.</li>
+</ol>
+<h3 id="other-news">
+  Other news
+  <a class="heading-link" href="#other-news">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>I&rsquo;m very happy to release both endeavour and JPL, and am happy to review any merge requests that you
+may submit!</p>
+<p>If you end up using JPL/endeavour, I look forward to hearing from you about your experiences!</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+        ©
+        
+          2020 -
+        
+        2021
+         Brennan Macaig 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
