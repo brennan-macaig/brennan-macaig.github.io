@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Brennan Macaig</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2020 12:29:25 -0500</lastBuildDate><atom:link href="https://www.brennanmacaig.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 16:16:24 -0500</lastBuildDate><atom:link href="https://www.brennanmacaig.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Endeavour and JPL released to the public</title>
+      <link>https://www.brennanmacaig.com/posts/endeavour-jpl-released/</link>
+      <pubDate>Fri, 19 Feb 2021 16:16:24 -0500</pubDate>
+      
+      <guid>https://www.brennanmacaig.com/posts/endeavour-jpl-released/</guid>
+      <description>Hey Folks!
+Happy to announce that Endeavour and JPL are now both available on my GitHub publicly!
+Endeavour and JPL are tools that I am happy to contribute to the open source community, and I&amp;rsquo;ll take some space here in my blog to explain what they do, why I made them, and how they work.
+Endeavour    Endeavour (the last NASA-made thing to bring humans to space) is a tool which effectively mimics cURL, writing files to the raw repository format in Nexus.</description>
+    </item>
+    
     <item>
       <title>Advent of Code - What, why, when, how?</title>
       <link>https://www.brennanmacaig.com/posts/advent-intro/</link>
